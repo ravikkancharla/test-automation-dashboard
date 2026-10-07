@@ -1,0 +1,35 @@
+{
+  "name": "test-automation-dashboard",
+  "version": "0.2.0",
+  "description": "Local prototype dashboard for tracking simulated CI test run history, pass rate, flaky tests, and execution duration trends. Built with React and TypeScript. No backend required - data persists in browser localStorage.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 8000 --open",
+    "start": "vite --port 8000 --open",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --port 8000",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "qa",
+    "test-automation",
+    "dashboard",
+    "ci-cd",
+    "sdet"
+  ],
+  "license": "UNLICENSED",
+  "dependencies": {
+    "chart.js": "^4.5.1",
+    "react": "^19.3.0",
+    "react-chartjs-2": "^5.3.1",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.2"
+  }
+}
